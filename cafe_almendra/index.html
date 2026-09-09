@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Café Almendra</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="wrap header-inner">
+                <span class="brand">Café Almendra</span>
+                <nav class="main-nav">
+                    <a href="#menu">Menú</a>
+                    <a href="#ubicacion">Ubicación</a>
+                    <a href="#horarios">Horarios</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="wrap">
+                    <h1>Café Almendra</h1>
+                    <p class="hero-sub">
+                        Nos une lo artesanal, nos une el café. Haciendo
+                        memorable lo común desde 1955.
+                    </p>
+                </div>
+            </section>
+
+            <section id="especiales" class="especiales-section">
+                <div class="wrap">
+                    <h2>Especiales</h2>
+                    <div class="especiales-grid">
+                        <article class="especial-card">
+                            <img
+                                class="img-placeholder img-placeholder--square"
+                                src="imagenes/pastel_zana.avif"
+                                alt="Pastel de zanahoria"
+                            />
+                            <h3>Pastel de zanahoria</h3>
+                            <span class="price">$100.00</span>
+                        </article>
+
+                        <article class="especial-card">
+                            <img
+                                class="img-placeholder img-placeholder--square"
+                                src="imagenes/croisant.avif"
+                                alt="Croissant"
+                            />
+                            <h3>Croissant</h3>
+                            <span class="price">$150.00</span>
+                        </article>
+
+                        <article class="especial-card">
+                            <img
+                                class="img-placeholder img-placeholder--square"
+                                src="imagenes/browinie.avif"
+                                alt="Brownie de chocolate con helado"
+                            />
+                            <h3>Brownie de chocolate con helado</h3>
+                            <span class="price">$125.00</span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="menu" class="menu-section">
+                <div class="wrap menu-inner">
+                    <div class="menu-list">
+                        <h2>Menú</h2>
+
+                        <div class="menu-item">
+                            <h3>Tostada con aguacate</h3>
+                            <p>
+                                Pan artesanal con aguacate, huevo pochado y
+                                semillas de sésamo.
+                            </p>
+                        </div>
+
+                        <div class="menu-item">
+                            <h3>Panini Caprese</h3>
+                            <p>
+                                Mozzarella fresca, tomate y albahaca en pan
+                                ciabatta tostado.
+                            </p>
+                        </div>
+
+                        <div class="menu-item">
+                            <h3>Açaí Bowl</h3>
+                            <p>
+                                Açaí con granola, plátano, fresas y un toque de
+                                miel.
+                            </p>
+                        </div>
+                    </div>
+
+                    <img
+                        class="img-placeholder img-placeholder--tall"
+                        src="imagenes/imagen_menu.avif"
+                        alt="Fruta fresca sobre mesa"
+                    />
+                </div>
+            </section>
+
+            <section class="cafe-especial-section">
+                <div class="wrap">
+                    <h2>Café especial</h2>
+                    <div class="cafe-especial-grid">
+                        <article class="cafe-card">
+                            <img
+                                class="img-placeholder img-placeholder--wide"
+                                src="imagenes/capuccino.avif"
+                                alt="Cappuccino clásico"
+                            />
+                            <h3>Cappuccino Clásico</h3>
+                            <p>
+                                Espresso suave con leche vaporizada y una capa
+                                de espuma cremosa.
+                            </p>
+                            <span class="price">$50.00</span>
+                        </article>
+
+                        <article class="cafe-card">
+                            <img
+                                class="img-placeholder img-placeholder--wide"
+                                src="imagenes/cold_brew.avif"
+                                alt="Cold Brew"
+                            />
+                            <h3>Cold Brew</h3>
+                            <p>
+                                Café de extracción en frío, servido con hielo
+                                para un sabor suave y refrescante.
+                            </p>
+                            <span class="price">$40.00</span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="horarios" class="horarios-section">
+                <div class="wrap">
+                    <h2>Horarios</h2>
+                    <dl class="hours-list">
+                        <div class="hours-row">
+                            <dt>Lunes a viernes</dt>
+                            <dd>8:00 am – 6:00 pm</dd>
+                        </div>
+                        <div class="hours-row">
+                            <dt>Sábado</dt>
+                            <dd>9:00 am – 7:00 pm</dd>
+                        </div>
+                        <div class="hours-row">
+                            <dt>Domingo</dt>
+                            <dd>9:00 am – 3:00 pm</dd>
+                        </div>
+                    </dl>
+                </div>
+            </section>
+
+            <section id="ubicacion" class="ubicacion-section">
+                <div class="wrap ubicacion-inner">
+                    <h2>Ubicación</h2>
+                    <a class="btn-dark" href="#">Ver ubicación</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="wrap footer-inner">
+                <span>Café Almendra</span>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="LinkedIn">IN</a>
+                    <a href="#" aria-label="YouTube">YT</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
